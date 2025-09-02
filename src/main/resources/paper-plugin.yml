@@ -1,0 +1,4 @@
+name: LCaRLP
+version: '0.1-beta'
+main: net.forgecraft.LCaRLP
+api-version: '1.21'
