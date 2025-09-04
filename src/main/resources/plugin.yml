@@ -1,0 +1,16 @@
+name: LCaRLP
+version: '0.1-beta'
+main: net.forgecraft.LCaRLP
+api-version: '1.21'
+commands:
+  register:
+    description: Регистрация для пиратских игроков
+  login:
+    description: Авторизация для пиратских игроков
+permissions:
+  licensecheck.bypass:
+    description: Обход проверки лицензии
+    default: op
+  licensecheck.admin:
+    description: Административные команды плагина
+    default: op

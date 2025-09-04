@@ -1,0 +1,25 @@
+# Настройки плагина проверки лицензии
+
+# Сообщения
+messages:
+  welcome-licensed: "§aДобро пожаловать! Ваша лицензия подтверждена."
+  welcome-pirate: "§eДля игры требуется регистрация."
+  register-usage: "§eИспользование: /register <пароль> <email>"
+  login-usage: "§eИспользование: /login <пароль>"
+  register-success: "§aРегистрация успешна!"
+  login-success: "§aАвторизация успешна!"
+  already-registered: "§cВы уже зарегистрированы!"
+  not-registered: "§cВы еще не зарегистрированы!"
+  wrong-password: "§cНеверный пароль!"
+  movement-blocked: "§cВы должны сначала авторизоваться!"
+  kick-message: "§cПожалуйста, используйте лицензионную версию Minecraft!"
+
+# Настройки базы данных
+database:
+  filename: "players.db"
+  backup-interval: 24 # Интервал резервного копирования в часах
+
+# Настройки безопасности
+security:
+  min-password-length: 6
+  bcrypt-rounds: 12
